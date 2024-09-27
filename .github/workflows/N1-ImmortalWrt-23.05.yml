@@ -3,7 +3,8 @@ name: N1-ImmortalWrt-23.05
 on:
   workflow_dispatch:
   repository_dispatch:
-
+    types:
+      - N1-ImmortalWrt-23.05
     inputs:
       ssh:
         description: 'SSH connection to Actions'
@@ -11,6 +12,11 @@ on:
         default: 'false'
 
 env:
+  REPO_BRANCH: master
+  UPLOAD_FIRMWARE: false
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: false
+  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 jobs:
