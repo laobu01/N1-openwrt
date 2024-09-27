@@ -8,11 +8,6 @@ on:
       - N1-ImmortalWrt-23.05
 
 env:
-  REPO_BRANCH: main
-  UPLOAD_FIRMWARE: false
-  UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 jobs:
