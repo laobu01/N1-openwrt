@@ -10,7 +10,7 @@ on:
         default: 'false'
 
 env:
-  REPO_BRANCH: master
+  REPO_BRANCH: main
   UPLOAD_FIRMWARE: false
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
