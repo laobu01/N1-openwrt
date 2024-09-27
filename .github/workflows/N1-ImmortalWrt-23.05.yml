@@ -3,8 +3,7 @@ name: N1-ImmortalWrt-23.05
 on:
   workflow_dispatch:
   repository_dispatch:
-    types:
-      - N1-ImmortalWrt-23.05
+
     inputs:
       ssh:
         description: 'SSH connection to Actions'
