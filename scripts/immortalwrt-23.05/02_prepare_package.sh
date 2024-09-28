@@ -61,7 +61,7 @@ move_2_services nas
 popd
 # mihomo
 cp -rf ../mihomo ./package/mihomo
-cp -rf ../openclash ./package/openclash
+cp -rf ../luci-app-openclash ./package/luci-app-openclash
 
 # 预配置一些插件
 cp -rf ../patch/files ./files
