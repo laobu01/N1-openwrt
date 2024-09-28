@@ -71,7 +71,7 @@ jobs:
     - name: Prepare source code
       working-directory: /builder
       run: |
-        echo "build_date=$(date +%Y-%m-%d %H:%M:%S)" >> ${GITHUB_ENV}
+        echo "build_date=$(date +"%Y-%m-%d %H:%M:%S")" >> ${GITHUB_ENV}
         cp -r ${GITHUB_WORKSPACE}/. ./
         cp -r ./scripts/immortalwrt-23.05/. ./
         /bin/bash 01_prepare_source_code.sh
