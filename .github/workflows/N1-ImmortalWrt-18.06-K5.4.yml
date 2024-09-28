@@ -100,8 +100,6 @@ jobs:
       run: |
         cp ../config/immortalwrt-18.06-k5.4/config.seed .config
         make defconfig
-    - name: SSH connection to Actions
-      uses: P3TERX/ssh2actions@v1.0.0
 
     - name: Download package
       working-directory: ${{ github.workspace }}/openwrt
