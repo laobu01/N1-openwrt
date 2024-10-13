@@ -87,7 +87,6 @@ CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 #CONFIG_PACKAGE_luci-app-vsftpd=y
 #CONFIG_PACKAGE_luci-app-v2raya=y
-CONFIG_PACKAGE_luci-app-netdata=y
 
 ### PASSWALL ###
 CONFIG_PACKAGE_luci-app-passwall=y
