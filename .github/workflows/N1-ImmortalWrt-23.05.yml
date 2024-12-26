@@ -133,7 +133,7 @@ jobs:
       uses: ffuqiangg/amlogic-s9xxx-openwrt@main
       with:
         openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
-        openwrt_board: s905d
+        openwrt_board: s912
         kernel_repo: ffuqiangg/kernel_5.15.y
         openwrt_kernel: ${{ env.kernel_version }}
         kernel_usage: stable
