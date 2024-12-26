@@ -72,6 +72,7 @@ jobs:
       run: |
         echo "build_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
         echo "DATE=$(date +"%Y-%m-%d_%H:%M:%S")" >> $GITHUB_ENV
+        echo "TAG_DATE=$(date +"%m%d-%H%M%S")" >> $GITHUB_ENV
         cp -r ${GITHUB_WORKSPACE}/. ./
         cp -r ./scripts/immortalwrt-23.05/. ./
         /bin/bash 01_prepare_source_code.sh
