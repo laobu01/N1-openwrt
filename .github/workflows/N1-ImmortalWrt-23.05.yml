@@ -138,7 +138,7 @@ jobs:
         kernel_repo: ffuqiangg/kernel_5.15.y
         openwrt_kernel: ${{ env.kernel_version }}
         kernel_usage: stable
-        auto_kernel: false
+        auto_kernel: true
 
     - name: Upload firmware to release
       uses: ncipollo/release-action@v1
