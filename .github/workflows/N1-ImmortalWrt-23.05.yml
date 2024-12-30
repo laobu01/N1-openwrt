@@ -149,7 +149,7 @@ jobs:
         tag: ${{ env.TAG_DATE }}
         allowUpdates: true
         replacesArtifacts: true
-        artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
+        artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*.img.gz
 
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
